@@ -23,8 +23,6 @@ body {
 
 .guitarras {
   color: #1F313C;
-  width: 800px;
-  margin: auto; 
 }
 
 .guitarras h2 {
@@ -34,10 +32,11 @@ body {
 
 .portada {
   background-image: url('../images/background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   padding: 20px;
-  width: 800px;
-  margin: auto;
 }
 
 .portada button {
@@ -58,7 +57,35 @@ body {
   display: inline-block;
 }
 
-.header {
+.container {
   width: 800px;
   margin: auto;
+}
+
+.guitarra {
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid #1F313C;
+}
+
+.guitarra ol {
+padding: 0;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.contenedor-guitarra-a {
+  padding-left: 20px;
+}
+
+.contenedor-guitarra-b {
+  margin-left: 370px;
+  padding
 }
